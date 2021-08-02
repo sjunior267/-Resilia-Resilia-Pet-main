@@ -1,0 +1,36 @@
+.pg h1,p{
+  margin: 20px 0;
+  text-align: center;  
+    
+}
+
+.pg h1{
+    font-family: Archivo;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 80px;
+}
+.pg p{
+    font-size: 30px;
+    font-family: Archivo;
+    margin-top: 40px;
+}
+
+.text {
+    font-family: Archivo;
+    margin-top: 50px;
+    display: block;
+}
+
+.text p{
+    font-size: 18px;
+    line-height: 2;
+    color: #525252;
+}
+
+.photo{
+    display: block;
+    margin-top: 100px;
+    margin-right: 20px;
+    
+}

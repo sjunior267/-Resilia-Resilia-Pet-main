@@ -1,0 +1,151 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.titleZone {
+  background-color: black;
+  color: #ffd000;
+  padding: 20px;
+  width: 20%;
+  font-family: Archivo;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.title::before {
+  content: '🐶';
+}
+
+.title::after {
+  content: '🐱';
+}
+
+.otherItemsZone {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  font-family: Roboto-Bold;
+}
+
+.otherItemsZone li {
+  margin-top: 7px;
+  font-size: 15px;
+}
+
+.otherItemsZone li:hover {
+  color: #ffd000;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+}
+
+.bannerText {
+  /* background-color: black; */
+  /* position: relative; */
+  color: black;
+  /* width: 500px; */
+  margin: 20px 0;
+  text-align: center;
+}
+
+.bannerTextTitle {
+  font-family: Archivo;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.bannerTextNormal {
+  font-size: 30px;
+  font-family: Archivo;
+  margin: 0 30px;
+  text-align: justify;
+}
+
+.bannerText span {
+  color: #ffd000;
+}
+
+.photo img {
+  border-bottom-left-radius: 5%;
+}
+
+.informations {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Archivo;
+  text-align: center;
+  margin: 25px 0px;
+  color: black;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Archivo;
+}
+
+.adoptList {
+  font-family: Archivo;
+}
+
+.AdoptListRow {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 50px;
+}
+
+.adoptList img {
+  width: 300px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.labelName {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.adoptList p {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: #ffd000;
+  padding: 30px;
+  font-family: Archivo;
+}
+
+.socialMediaLine {
+  display: flex;
+  justify-content: center;
+}
+
+.socialMediaLine i {
+  font-size: 24px;
+  color: #ffd000;
+  margin: 10px 30px;
+}

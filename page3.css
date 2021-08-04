@@ -1,0 +1,39 @@
+h1{
+    font-family: Archivo;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.text {
+    display: flex;
+  justify-content: space-around;
+  
+
+}
+
+.text img{
+    width: 200px;
+    height: 200px;
+    margin-left: 35%;
+}
+
+
+.tipos p{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.tipos h2{
+    margin-left: 20px;
+}
+
+.tipos a{
+    color: #ffd000;
+    background-color: black;
+    padding: 10px 20px;
+    font-family: Archivo;
+    border-radius: 10px;
+    
+    
+}

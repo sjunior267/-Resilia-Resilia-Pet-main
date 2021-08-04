@@ -28,9 +28,19 @@
     color: #525252;
 }
 
-.photo{
+.photo img{
     display: block;
     margin-top: 100px;
     margin-right: 20px;
+    border-radius: 10px;
+    
+}
+.doa a{
+    color: #ffd000;
+    background-color: black;
+    padding: 10px;
+    font-family: Archivo;
+    border-radius: 10px;
+    
     
 }
